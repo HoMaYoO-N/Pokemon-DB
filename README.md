@@ -1,8 +1,11 @@
 # Pokemon-DB
-This is a database written in SQLite for Pokemon
+A Pokemon database written in SQLite
 
-We used signs that are somehow different from the ones in the course so we will define them here.
-|  |       Participation: Mandatory-Cardinality: One 
-() <       Participation: Optional-Cardinality: Many 
-|  <       Participation: Mandatory-Cardinality: Many 
-() |       Participation: Optional-Cardinality: One
+Symbols different to those used in the course were used. They are as follows:
+
+|Symbol|Meaning|
+|---|---|
+|\|\|| Participation: Mandatory-Cardinality: One|
+|() <|       Participation: Optional-Cardinality: Many |
+|\|  <|       Participation: Mandatory-Cardinality: Many |
+|() \||       Participation: Optional-Cardinality: One|
